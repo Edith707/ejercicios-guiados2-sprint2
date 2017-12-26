@@ -1,0 +1,51 @@
+body {
+  margin:0;
+  padding:0;
+  font-family: 'Gochi Hand', cursive;
+
+}
+
+h1 {
+  text-align: center;
+  color:#5dade2;
+  font-size: 40pt;
+}
+
+article.zoo {
+  margin:  150px 15px;
+}
+
+article.zoo > div>img {
+  margin: 15px 15px;
+}
+
+.original {
+  filter: none;
+}
+.sepia {
+   filter: sepia(1);
+   -ms-filter: sepia(1);
+   -moz-filter:sepia(1);
+   -o-filter:sepia(1);
+   -webkit-filter: sepia(1);
+}
+
+.white-black {
+   filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -o-filter:grayscale(100%);
+   -webkit-filter: grayscale(100%);
+}
+
+.negative-colors {
+  filter:invert(.8);
+  -ms-filter: invert(.8);
+  -moz-filter:invert(.8);
+  -o-filter:invert(.8);
+  -webkit-filter: (.8);
+}
+#select{
+  margin-left: 43%;
+  background-color:  #aed6f1;
+}

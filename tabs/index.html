@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Programando Tabs</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+
+     <section id="sectionInicial">
+       <h1 class="title">Lab Menu <img  src="images/logo.png" alt="LogoMenu" ></b></h1>
+       <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     </section>
+     <section>
+       <ul>
+         <li><button type="button" name="button" data-tab-seleccionado="tabdesayuno" class="tab"> Desayuno</button></li>
+         <li><button type="button" name="button" data-tab-seleccionado="tabcomida" class="tab">Comida</button></li>
+         <li><button type="button" name="button" data-tab-seleccionado="tabpostres" class="tab">Postres </button></li>
+       </ul>
+       <div class="">
+         <article id="desayuno" class="contenido">
+           <div class="image">
+             <img src="images/desayuno.jpg" alt="desayuno" width="400px" height="300px">
+           </div>
+           <div class="texto">
+             <h3>Menu desayunos</h3>
+             <ul>
+               <li>Hot cakes</li>
+               <li>Café</li>
+               <li>Huevos revueltos</li>
+               <li>Chilaquiles</li>
+               <li>Jugo de naranja</li>
+               <li>Cocktel de frutas</li>
+             </ul>
+           </div>
+         </article>
+         <article id="comida" class="contenido">
+           <div class="image">
+             <img src="images/comida.jpg" alt="comida" width="400px" height="300px">
+           </div>
+           <div class="texto">
+             <h3>Menu Comida</h3>
+             <ul>
+               <li>Chiles rellenos</li>
+               <li>CHilaquiles con bisteck</li>
+               <li>Enchiladas verdes</li>
+               <li>Enmoladas</li>
+               <li>Orden de flautas</li>
+             </ul>
+           </div>
+         </article>
+         <article id="postres" class="contenido">
+           <div class="image">
+              <img src="images/postre.jpg" alt="postres" width="400px" height="300px">
+           </div>
+           <div class="texto">
+             <h3>Menu Postres</h3>
+             <ul>
+               <li>Flan Napolitano</li>
+               <li>Pay de queso</li>
+               <li>Matilda</li>
+               <li>Churros rellenos de chocolate</li>
+               <li>Pastelitos</li>
+             </ul>
+           </div>
+         </article>
+       </div>
+     </section>
+    <script src="app.js"></script>
+  </body>
+</html>
