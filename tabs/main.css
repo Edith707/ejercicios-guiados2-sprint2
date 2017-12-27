@@ -1,4 +1,46 @@
 body{
+  font-family: 'Poppins', sans-serif;
   margin:0;
   padding:0;
+
+}
+/*Clases*/
+.container {
+  width: 900px;
+  margin: 0 auto;
+  display: block;
+}
+.menu >ul {
+  list-style: none;
+}
+.tab {
+  background-color: #fcb425;
+  border-radius: 20px;
+  color:white;
+  font-family: 'Pacifico';
+  font-size: 2em;
+
+}
+.contenedor-tabs {
+  list-style: none;
+}
+
+.contenedor-menu li {
+  display: inline-block;
+}
+.contenedor-menu li :hover {
+  background-color: #ffd433;
+}
+
+/*ID*/
+#sectionInicial .title {
+  color: #fcb425;
+  font-size: 3em;
+  font-family: 'Pacifico',cursive;
+  text-align: center;
+}
+
+#sectionInicial p .description {
+  font-size: 1em;
+
 }
